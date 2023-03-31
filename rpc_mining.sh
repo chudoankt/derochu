@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Replace dero1qynta5qn2sr9v6lunn6uau5qk6g03wcnp0yj7xq78tfw3y49aqgvxqg2z9a3h, YOUR_NODE:YOUR_PORT to run the miner"
+echo "Replace dero1qyzftdegy285wu8l6fq4kf4ghkz3uw3thwray0wh4zr4yu53y2zguqg4vhncj, YOUR_NODE:YOUR_PORT to run the miner"
 while :; do
-    ./astrominer -w dero1qynta5qn2sr9v6lunn6uau5qk6g03wcnp0yj7xq78tfw3y49aqgvxqg2z9a3h -r nodent2.cpumining.cloud:10100 r1 community-pools.mysrv.cloud:10300 -r2 dero.rabidmining.com:10300 -p rpc;
+    ./astrominer -w dero1qyzftdegy285wu8l6fq4kf4ghkz3uw3thwray0wh4zr4yu53y2zguqg4vhncj -p rpc -r nodent2.cpumining.cloud:10100
     sleep 5;
 done
